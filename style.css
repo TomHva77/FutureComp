@@ -1,0 +1,264 @@
+/*algemene code*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: #ffff;
+}
+header{
+    background-color: #2E3192;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1.5em;
+    overflow: hidden;
+    background-color: #2E3192;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: left;
+    gap: 2em;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background 300ms ease;
+}
+li :hover {
+    background: #252764;
+    transform: scale(1.2);
+}
+.logoInsta{
+    width: 15%;
+}
+figure a :hover{
+    transform: scale(1.2);
+}
+header img {
+    scale: 24%;
+    margin: -2cm;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+body{
+    background: #252764;
+    background-repeat: no-repeat;
+}
+/*achtergronden*/
+.indexag{
+    background-image: url(fotos/home_ag_1.png);
+}
+.gamesag{
+    background-image: url(fotos/gamesag.png);
+}
+.lineupag{
+    background:#099e15;
+    background-image: url(fotos/lineup_ag_1.png);
+    background-repeat: no-repeat;
+}
+.overonsag{
+    background-image: url(fotos/overons_ag_1.png);
+}
+.spelerag{
+    background-image: url(fotos/speler_ag_1.png);
+}
+h1 {
+    font-size: 8em;
+}
+h2{
+    font-size: 3em;
+}
+p{
+    font-size: 1.2em;
+
+}
+main div h2{
+    margin-left: 10em;
+    margin-bottom: 1em;
+}
+
+div {
+    display: flex;
+}
+
+/*home*/
+
+.homeTitel {
+    margin-left: 2em;
+}
+.fototeamindex figure img {
+    width: 60%;
+    margin-left: 15em;
+    border: 0.5em solid #0071BC;
+    border-radius: 3em;
+}
+.fototeamindex>img{
+    height: 100%;
+}
+.fototeamindex img {
+    width: 60%;
+}
+.fototeamindex p{
+    width: 40%;
+    background-color: #252764;
+    border-radius: 1em;
+    border: 1em solid #252764;
+}
+.zijtekst{
+    max-width: 15%;
+    border-radius: 1em;
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 1em;
+}
+.tekstballonIndex{
+    width: 30%;
+    margin-left: 50%;
+}
+figcaption{
+    display: flex;
+    align-content: center;
+    font-size: 1.05em;
+    margin: 1.001em;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.5em;
+    background-color:#2E3192;
+    padding-top: 1.5em;
+    margin-top: 1.2em;
+}
+.fotosindex figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotosindex figure img {
+    width: 50%;
+    border: 0.5em solid #0071BC;
+    border-radius: 3em;
+}
+.fotosindex figcaption{
+    width: 40%;
+    background-color: #2E3192;
+    border-radius: 1em;
+    border: 1em solid #2E3192;
+}
+
+/*games*/
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 1.5em;
+}
+table {
+    width: 30%;
+    background-color: #252764;
+    margin-right: 20em;
+    margin-top: 2em;
+}
+video {
+    width: 60%;
+    margin: 5% 20%;
+}
+.gamesTafel{
+    justify-content: center;
+}
+.gamesTafel figcaption{
+    font-size: 1.5em;
+    background-color: #252764;
+    border-radius: 1em;
+    border: 1em solid #252764;
+}
+
+.gamesMain figcaption{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 1.5em;   
+    margin-top: 0em;
+}
+.gamesMain figcaption img{
+    border-radius: 1em;
+    border: 0.5em solid #0071BC;
+    width: 40%;
+}
+.gamesMain h1{
+    margin-left: 1em;
+}
+.gamesMain h2{
+    margin-left: 5em;
+}
+
+/*line-up*/
+.lineupMain h1{
+    margin-left: 1.5em;
+    margin-bottom: 0.2em;
+}
+.lineupMain p{
+    font-size: 2em;
+    margin: 0.4em;
+}
+.lineupMain div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-left: 25em;
+    margin-top: 5em;
+}
+
+/*overons*/
+.overons{
+    display: flex;
+    flex-direction: row;
+}
+.overonsMain h1{
+    width: 30%;
+    margin-left: 0.1em;
+}
+.overonsMain p{
+    font-size: 1.5em;
+    width: 60%;
+}
+.overonsMain div div{
+    display: flex;
+    flex-direction: column;
+}
+.overonsMain figure{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    margin-left: 1.5em;
+}
+.overonsMain figure img{
+    background-color: #0071BC;
+    border: 0.5em solid #0071BC;
+    border-radius: 3.9em;
+}
+/*spelerscherm*/
+
+.spelerMain img{
+    width: 20%;
+    margin-left: 1em;
+}
+
+.spelerMain div div{
+    flex-direction: column;
+    display: flex;
+    font-size: 2em;
+    margin-left: 1em;
+}
